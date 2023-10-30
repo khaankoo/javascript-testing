@@ -1,0 +1,102 @@
+* {
+    margin: 0%;
+}
+body {
+    height: 100vh;
+    width: 100vw; 
+    background-color: rgb(226, 140, 97);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1500px;
+    margin: auto;
+    gap: 100px;
+}
+.flex {
+    display: flex;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    border-radius: 50%;
+    height: 900px;
+    width: 900px;
+    background: white;
+    position: relative;
+}
+.circle {
+    border-radius: 50%;
+    height: 900px;
+    width: 900px;
+    background: conic-gradient(rgb(178, 48, 48) 0deg 72deg, orange 72deg 144deg, rgb(246, 246, 89) 144deg 216deg, green 216deg 288deg, blue 288deg 360deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 2s;
+}
+.button {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textArea {
+    width: 838px;
+    height: 850px;
+}
+.triangle {
+    background-color: rgb(120, 181, 235);
+    height: 70px;
+    width: 70px;
+    right: -30px;
+    top: 47%;
+    position: absolute;
+    clip-path: polygon(0 40%, 150% 100%, 100% 0%);
+}
+.changebutton {
+    height: 70px;
+    width: 200px;
+    background-color: rgba(229, 129, 221, 0.39)r;
+    border-radius: 8px solid;
+}
+.winner {
+    flex-direction: column;
+    width: 500px;
+    height: 150px;
+    padding: 0px 0px 0px 0px;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 35px;
+}
+.winner-top {
+    justify-content: space-between;
+    padding: 10px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+}
+.winner-bot {
+    background-color: white;
+    height: 100px;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.btn {
+    gap: 10px;
+}
+.btn-size {
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    border: solid;
+    background-color: red;
+}
+.normal {
+    background-color: aliceblue;
+}
